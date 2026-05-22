@@ -1,5 +1,17 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+function setupProfileLink(id, anchorId, url) {
+  const item = document.getElementById(id);
+  const anchor = document.getElementById(anchorId);
+  if (!item || !anchor || !url) return;
+  anchor.href = url;
+  item.hidden = false;
+}
+
+const config = window.SITE_CONFIG || {};
+setupProfileLink("link-google-scholar", "anchor-google-scholar", config.googleScholar);
+setupProfileLink("link-researchgate", "anchor-researchgate", config.researchGate);
+
 const toggle = document.querySelector(".nav-toggle");
 const menu = document.getElementById("nav-menu");
 

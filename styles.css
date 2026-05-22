@@ -207,6 +207,37 @@ body {
   fill: currentColor;
 }
 
+.hero-links .icon-orcid {
+  fill: var(--color-accent);
+}
+
+.hero-links a:hover .icon-orcid,
+.hero-links a:focus .icon-orcid {
+  fill: #fff;
+}
+
+.publications-status {
+  margin: -1rem 0 1.5rem;
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+}
+
+.publications-status a {
+  color: var(--color-accent);
+}
+
+.pub-loading,
+.pub-empty {
+  list-style: none;
+  padding: 1rem 0;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.publication-list--loading > li:not(.pub-loading) {
+  display: none;
+}
+
 /* Sections */
 .container {
   max-width: var(--max-width);

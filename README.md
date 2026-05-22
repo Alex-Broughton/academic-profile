@@ -22,10 +22,23 @@ Alternatively, open `index.html` directly in a browser (some features work best 
 4. Choose branch `main` and folder `/ (root)`.
 5. Save. The site will be available at `https://<username>.github.io/<repo-name>/`.
 
+## Publications (ORCID)
+
+Publications load automatically from your [ORCID record](https://orcid.org/0000-0001-6966-5316) when someone visits the site. Add new works in ORCID and they appear here without editing HTML.
+
+To show Google Scholar and ResearchGate icons, paste your profile URLs in `site-config.js`:
+
+```js
+googleScholar: "https://scholar.google.com/citations?user=YOUR_ID",
+researchGate: "https://www.researchgate.net/profile/YOUR_PROFILE",
+```
+
 ## Structure
 
 - `index.html` — page content
 - `styles.css` — layout and typography
+- `site-config.js` — ORCID id and optional profile URLs
+- `publications.js` — fetches and renders works from ORCID
 - `script.js` — mobile navigation and footer year
 - `images/profile.png` — profile photo
 
