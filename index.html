@@ -15,17 +15,15 @@
 
   <header class="site-header">
     <nav class="nav" aria-label="Primary">
-      <a class="nav-brand" href="#">Alex Broughton</a>
+      <div class="nav-brand" aria-hidden="true"></div>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
       <ul id="nav-menu" class="nav-menu">
         <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#talks">Talks</a></li>
         <li><a href="#outreach">Outreach</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -44,14 +42,29 @@
             SLAC National Accelerator Laboratory / Stanford University
           </p>
           <p class="hero-summary">
-            I work on the Legacy Survey of Space and Time (LSST) at the Vera C. Rubin Observatory,
-            developing and validating instrument signature removal for the data management pipeline,
-            and contributing to cosmology systematics modeling in the Dark Energy Science Collaboration.
+            I work on the Legacy Survey of Space and Time (LSST) at the Vera C. Rubin Observatory.
+            As a postdoctoral researcher at KIPAC, I lead development, commissioning, and science
+            validation for Instrument Signature Removal (ISR) in the Data Management Science Pipeline.
+            I am part of the TAXICAB calibration team for ComCam on-sky calibration, and I contribute
+            forward models of image systematics to cosmology in the Dark Energy Science Collaboration
+            (DESC) Pixel-to-Object working group.
           </p>
-          <ul class="hero-links">
-            <li><a href="mailto:abrought@slac.stanford.edu">Email</a></li>
-            <li><a href="https://github.com/Alex-Broughton" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="https://orcid.org/0000-0001-6966-5316" target="_blank" rel="noopener noreferrer">ORCID</a></li>
+          <ul class="hero-links" aria-label="Contact and profiles">
+            <li>
+              <a href="mailto:abrought@slac.stanford.edu" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm0 2v.01L12 13l8-4.99V8H4zm16 6.25L12 15 4 14.25V16h16v-1.75z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Alex-Broughton" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0 1 12 6.8c.85.004 1.71.11 2.51.32 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://orcid.org/0000-0001-6966-5316" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.2 14.2H8.4V8.6h2.4v7.6zm5.4 0c-1.38 0-2.5-1.12-2.5-2.5V11c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5v2.7c0 1.38-1.12 2.5-2.5 2.5zm0-4.2c-.55 0-1 .45-1 1v2.7c0 .55.45 1 1 1s1-.45 1-1v-2.7c0-.55-.45-1-1-1zM6.6 8.6h2.4v7.6H6.6V8.6z"/></svg>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -60,113 +73,23 @@
     <section id="about" class="section">
       <div class="container">
         <h2 class="section-title">About</h2>
-        <div class="about-grid">
-          <div class="about-content">
-            <p>
-              I am a physicist specializing in astrophysics instrumentation, detector systematics,
-              and their impact on precision cosmology. My current focus is commissioning and
-              science validation for Instrument Signature Removal (ISR) in the Rubin Observatory
-              Data Management Science Pipeline, alongside forward modeling of image systematics
-              for the Dark Energy Science Collaboration.
-            </p>
-            <p>
-              My graduate work at UC Irvine and SLAC spanned LSSTCam operations, electro-optical
-              sensor systematics, and deep-learning approaches to Galactic gamma-ray emission for
-              dark matter searches with Fermi-LAT. Earlier research at UC Davis and LBNL included
-              liquid xenon dark matter experiments and energy systems modeling.
-            </p>
-          </div>
-          <aside class="education-card" aria-labelledby="education-heading">
-            <h3 id="education-heading">Education</h3>
-            <ul class="timeline compact">
-              <li>
-                <span class="timeline-date">2024</span>
-                <span class="timeline-body">
-                  <strong>Ph.D., Physics</strong><br>
-                  University of California, Irvine
-                </span>
-              </li>
-              <li>
-                <span class="timeline-date">2019</span>
-                <span class="timeline-body">
-                  <strong>B.S., Physics</strong><br>
-                  University of California, Davis
-                </span>
-              </li>
-            </ul>
-          </aside>
+        <div class="about-content">
+          <p>
+            My work centers on turning Rubin Observatory data into reliable inputs for precision
+            cosmology—ensuring detector and instrumental effects are understood, removed, and
+            propagated correctly through the science pipeline.
+          </p>
+          <p>
+            At SLAC, I collaborate with the LSST data management and camera teams on ISR algorithms,
+            calibration products, and verification tests that connect instrument performance directly
+            to astrophysical measurements. I also help shape community strategy for Rubin’s next decade
+            of science through workshop organization and international engagement programs.
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="research" class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">Research Experience</h2>
-        <ol class="timeline">
-          <li>
-            <span class="timeline-date">2024 — present</span>
-            <span class="timeline-body">
-              <h3>Postdoctoral Research Associate</h3>
-              <p class="timeline-org">SLAC National Laboratory / Stanford University</p>
-              <p>
-                Development, commissioning, and science validation for Instrument Signature Removal (ISR)
-                in the Data Management Science Pipeline for LSST. Member of the TAXICAB calibration team
-                for ComCam on-sky calibration. Contributor to forward models of image systematics in the
-                DESC Pixel-to-Object working group.
-              </p>
-            </span>
-          </li>
-          <li>
-            <span class="timeline-date">2022 — 2023</span>
-            <span class="timeline-body">
-              <h3>Graduate Student Researcher</h3>
-              <p class="timeline-org">SLAC National Laboratory / Stanford University</p>
-              <p>
-                Studied sensor artifacts and their impact on dark energy and dark matter science for
-                LSST camera and Auxiliary Telescope commissioning.
-              </p>
-            </span>
-          </li>
-          <li>
-            <span class="timeline-date">2019 — 2024</span>
-            <span class="timeline-body">
-              <h3>Graduate Student Researcher</h3>
-              <p class="timeline-org">University of California, Irvine</p>
-              <p>
-                Operated LSSTCam and developed pipelines, simulations, and tools for star/galaxy
-                characterization, wavefront sensing, guiding, and electro-optical sensor systematics.
-                Applied deep learning to improve systematic errors in gamma-ray component models for
-                Fermi-LAT dark matter studies.
-              </p>
-            </span>
-          </li>
-          <li>
-            <span class="timeline-date">2017 — 2019</span>
-            <span class="timeline-body">
-              <h3>Research Assistant</h3>
-              <p class="timeline-org">University of California, Davis</p>
-              <p>
-                Monte Carlo simulations for the Davis Xenon Experiment (DAX) and LUX; WIMP dark matter
-                simulations and high-voltage conduit testing for the LZ project.
-              </p>
-            </span>
-          </li>
-          <li>
-            <span class="timeline-date">2016</span>
-            <span class="timeline-body">
-              <h3>Summer Research Assistant</h3>
-              <p class="timeline-org">Lawrence Berkeley National Laboratory</p>
-              <p>
-                Smart nanogrid demonstration and transactive energy networks using Volttron and the
-                Local Price-Based Power Distribution Model (Building Technology &amp; Urban Systems Division).
-              </p>
-            </span>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="publications" class="section">
+    <section id="publications" class="section section-alt">
       <div class="container">
         <h2 class="section-title">Selected Publications</h2>
         <ol class="publication-list">
@@ -216,22 +139,6 @@
       </div>
     </section>
 
-    <section id="honors" class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">Honors &amp; Awards</h2>
-        <ul class="award-list">
-          <li>
-            <strong>DOE Office of Science Graduate Student Research (SCGSR) Fellowship</strong>
-            <span>Department of Energy, 2022</span>
-          </li>
-          <li>
-            <strong>Data Science Fellowship (DSF)</strong>
-            <span>Physical Sciences Machine Learning (PSML) NEXUS, UC Irvine, 2021</span>
-          </li>
-        </ul>
-      </div>
-    </section>
-
     <section id="talks" class="section">
       <div class="container">
         <h2 class="section-title">Conference Presentations &amp; Invited Talks</h2>
@@ -252,12 +159,12 @@
 
     <section id="outreach" class="section section-alt">
       <div class="container">
-        <h2 class="section-title">Outreach &amp; Leadership</h2>
+        <h2 class="section-title">Outreach</h2>
         <ul class="timeline compact">
           <li>
             <span class="timeline-date">2026</span>
             <span class="timeline-body">
-              <strong>Rubin 2036 — SOC/LOC Organizer</strong>
+              <strong><a href="https://kipac.stanford.edu/events/kipac-workshops/kipac-workshop-rubin-2036" target="_blank" rel="noopener noreferrer">Rubin 2036 Workshop</a> — SOC/LOC Organizer</strong>
               <p>Workshop planning for post-LSST survey and instrumentation on the Simonyi Telescope.</p>
             </span>
           </li>
@@ -271,48 +178,25 @@
           <li>
             <span class="timeline-date">2024 — present</span>
             <span class="timeline-body">
-              <strong>Co-founder, KIPAC-Chile Engagement Program</strong>
+              <strong>Co-founder, <a href="https://kipac.stanford.edu/outreach-and-public-engagement-kipac/kipac-chile-engagement-program" target="_blank" rel="noopener noreferrer">KIPAC-Chile Engagement Program</a></strong>
               <p>Innovation grant program connecting KIPAC travelers with Chilean institutions; managed $15k budget and university outreach across Chile.</p>
             </span>
           </li>
           <li>
             <span class="timeline-date">2023 — present</span>
             <span class="timeline-body">
-              <strong>Save The Bay</strong>
+              <strong><a href="https://savesfbay.org/" target="_blank" rel="noopener noreferrer">Save The Bay</a></strong>
               <p>Advocacy, education, restoration, and conservation in the San Francisco Bay Area.</p>
             </span>
           </li>
         </ul>
-
-        <h3 class="subsection-title">Teaching &amp; Mentorship</h3>
-        <ul class="teaching-list">
-          <li>Teaching Assistant, PHYSICS 2: Mathematical Methods for Physics — UC Irvine, Fall 2019</li>
-          <li>Physics Tutor — UC Irvine, 2019</li>
-          <li>Physics Tutor — UC Davis Physics Club, 2017–2019</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-card">
-          <address>
-            <p><strong>Dr. Alex Broughton</strong></p>
-            <p>Kavli Institute for Particle Astrophysics &amp; Cosmology</p>
-            <p>SLAC National Accelerator Laboratory</p>
-            <p>2175 Sand Hill Road, Menlo Park, CA 94025</p>
-            <p><a href="mailto:abrought@slac.stanford.edu">abrought@slac.stanford.edu</a></p>
-            <p><a href="tel:+19259979962">+1 (925) 997-9962</a></p>
-          </address>
-        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Alex Broughton. Built for academic outreach.</p>
+      <p>&copy; <span id="year"></span> Alex Broughton.</p>
     </div>
   </footer>
 
