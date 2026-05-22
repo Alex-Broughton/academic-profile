@@ -226,17 +226,6 @@ body {
   color: var(--color-accent);
 }
 
-.pub-loading,
-.pub-empty {
-  list-style: none;
-  padding: 1rem 0;
-  color: var(--color-text-muted);
-  font-style: italic;
-}
-
-.publication-list--loading > li:not(.pub-loading) {
-  display: none;
-}
 
 /* Sections */
 .container {
