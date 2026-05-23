@@ -40,6 +40,8 @@ researchGate: "https://www.researchgate.net/profile/YOUR_PROFILE",
 - `site-config.js` — profile URLs for hero icons
 - `script.js` — mobile navigation and footer year
 - `images/profile.png` — profile photo
+- `images/research/` — KIPAC, Rubin Observatory, and LSST/DESC logos (research section)
+- `images/outreach/` — outreach photos (e.g. Chile engagement)
 
 ## License
 
